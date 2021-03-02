@@ -10,6 +10,7 @@ class ElasticquentSupport
 
     public static function isLaravel5()
     {
-        return version_compare(Application::VERSION, '5', '>');
+	    return true;
+       // return version_compare(Application::VERSION, '5', '>');
     }
 }
